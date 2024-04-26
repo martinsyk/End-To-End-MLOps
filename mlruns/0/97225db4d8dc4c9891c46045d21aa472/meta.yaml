@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/97225db4d8dc4c9891c46045d21aa472/artifacts
+end_time: 1713891512761
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97225db4d8dc4c9891c46045d21aa472
+run_name: likeable-ray-865
+run_uuid: 97225db4d8dc4c9891c46045d21aa472
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713891509761
+status: 3
+tags: []
+user_id: ssyko

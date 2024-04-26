@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ssyko/MLOps_v2/Diamond-Price-Prediction/mlruns/321918614095044644/4d03ce66b5674a34ba9e04fd1373dd9e/artifacts
+end_time: 1713888896536
+entry_point_name: ''
+experiment_id: '321918614095044644'
+lifecycle_stage: active
+run_id: 4d03ce66b5674a34ba9e04fd1373dd9e
+run_name: secretive-mink-554
+run_uuid: 4d03ce66b5674a34ba9e04fd1373dd9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713888894045
+status: 3
+tags: []
+user_id: ssyko

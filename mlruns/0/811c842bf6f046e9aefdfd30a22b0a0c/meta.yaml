@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/811c842bf6f046e9aefdfd30a22b0a0c/artifacts
+end_time: 1713902849825
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 811c842bf6f046e9aefdfd30a22b0a0c
+run_name: unequaled-sponge-988
+run_uuid: 811c842bf6f046e9aefdfd30a22b0a0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713902846331
+status: 3
+tags: []
+user_id: ssyko

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/2a7853a4eb0b4a2ea75c59076b778aa9/artifacts
+end_time: 1713888995411
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a7853a4eb0b4a2ea75c59076b778aa9
+run_name: skillful-tern-75
+run_uuid: 2a7853a4eb0b4a2ea75c59076b778aa9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713888992907
+status: 4
+tags: []
+user_id: ssyko

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ssyko/MLOps_v2/Diamond-Price-Prediction/mlruns/321918614095044644/e1dd38e757d94e609e675bd6e3210e52/artifacts
+end_time: 1713888771186
+entry_point_name: ''
+experiment_id: '321918614095044644'
+lifecycle_stage: active
+run_id: e1dd38e757d94e609e675bd6e3210e52
+run_name: abundant-calf-219
+run_uuid: e1dd38e757d94e609e675bd6e3210e52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713888768364
+status: 3
+tags: []
+user_id: ssyko

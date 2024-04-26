@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 from src.DiamondPricePrediction.logger import logging
 from src.DiamondPricePrediction.exception import customexception
+import yaml
+
 
 from sklearn.metrics import r2_score, mean_absolute_error,mean_squared_error
 
@@ -52,5 +54,17 @@ def load_object(file_path):
     except Exception as e:
         logging.info('Exception Occured in load_object function utils')
         raise customexception(e,sys)
+    
+def load_params(params_path):
+    # Load parameters YAML file
+    with open(params_path, 'r') as f:
+        params = yaml.safe_load(f)
+
+    # Convert hidden_layer_sizes to tuple
+    params['hidden_layer_sizes'] = tuple(int(x) for x in params['hidden_layer_sizes'].strip('()').split(',') if x)
+
+    return params    
+    
+    
 
     

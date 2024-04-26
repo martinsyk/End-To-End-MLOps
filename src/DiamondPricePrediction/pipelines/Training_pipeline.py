@@ -6,6 +6,8 @@ from src.DiamondPricePrediction.components.Model_trainer import ModelTrainer
 
 from src.DiamondPricePrediction.components.Model_evaluation import ModelEvaluation
 
+from src.DiamondPricePrediction.components.Model_monitoring import create_demo_project
+
 
 
 obj=DataIngestion()
@@ -19,3 +21,6 @@ model_trainer_obj.initate_model_training(train_arr,test_arr)
 
 model_eval_obj = ModelEvaluation()
 model_eval_obj.initiate_model_evaluation(train_arr,test_arr)
+
+WORKSPACE = "workspace"
+create_demo_project(WORKSPACE)

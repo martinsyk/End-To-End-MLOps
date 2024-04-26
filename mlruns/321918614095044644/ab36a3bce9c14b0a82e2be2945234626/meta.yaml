@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ssyko/MLOps_v2/Diamond-Price-Prediction/mlruns/321918614095044644/ab36a3bce9c14b0a82e2be2945234626/artifacts
+end_time: 1713888858644
+entry_point_name: ''
+experiment_id: '321918614095044644'
+lifecycle_stage: active
+run_id: ab36a3bce9c14b0a82e2be2945234626
+run_name: industrious-stag-403
+run_uuid: ab36a3bce9c14b0a82e2be2945234626
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713888856140
+status: 3
+tags: []
+user_id: ssyko

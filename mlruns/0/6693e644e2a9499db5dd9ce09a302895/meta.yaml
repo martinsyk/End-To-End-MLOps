@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6693e644e2a9499db5dd9ce09a302895/artifacts
+end_time: 1713889240509
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6693e644e2a9499db5dd9ce09a302895
+run_name: unequaled-lamb-793
+run_uuid: 6693e644e2a9499db5dd9ce09a302895
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713889238105
+status: 3
+tags: []
+user_id: ssyko

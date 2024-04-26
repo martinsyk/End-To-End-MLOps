@@ -7,6 +7,8 @@ import mlflow.sklearn
 from urllib.parse import urlparse
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from src.DiamondPricePrediction.utils.utils import load_object
+from src.DiamondPricePrediction.utils.utils import load_params 
+import yaml
 
 
 class ModelEvaluation:
@@ -28,12 +30,19 @@ class ModelEvaluation:
             model_path=os.path.join("Artifacts","Model.pkl")
 
             model=load_object(model_path)
-
-            mlflow.set_registry_uri("https://dagshub.com/HemaKalyan45/Diamond-Price-Prediction.mlflow")
+            
+            mlflow.set_tracking_uri("http://127.0.0.1:5000")
                         
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
             print(tracking_url_type_store)
+            
+            # Get the directory of the current script
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            # Construct the path to the parameters.yaml file
+            params_path = os.path.join(script_dir, '..' ,'..', '..', 'parameters.yaml')
+            # Load parameters from YAML file
+            params = load_params(params_path)
 
             with mlflow.start_run():
 
@@ -44,6 +53,10 @@ class ModelEvaluation:
                 mlflow.log_metric("rmse", rmse)
                 mlflow.log_metric("r2", r2)
                 mlflow.log_metric("mae", mae)
+                
+                # Log parameters (key-value pairs)
+                for param_name, param_value in params.items():
+                    mlflow.log_param(param_name, param_value)
 
 
                 # Model registry does not work with file store

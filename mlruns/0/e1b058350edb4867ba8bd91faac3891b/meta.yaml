@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e1b058350edb4867ba8bd91faac3891b/artifacts
+end_time: 1713889498694
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1b058350edb4867ba8bd91faac3891b
+run_name: nimble-moose-600
+run_uuid: e1b058350edb4867ba8bd91faac3891b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713889495942
+status: 3
+tags: []
+user_id: ssyko

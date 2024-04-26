@@ -8,8 +8,10 @@ from src.DiamondPricePrediction.exception import customexception
 from dataclasses import dataclass
 from src.DiamondPricePrediction.utils.utils import save_object
 from src.DiamondPricePrediction.utils.utils import evaluate_model
+from src.DiamondPricePrediction.utils.utils import load_params 
 
-from sklearn.linear_model import LinearRegression, Ridge,Lasso,ElasticNet
+from sklearn.neural_network import MLPRegressor
+import yaml
 
 
 @dataclass 
@@ -30,12 +32,22 @@ class ModelTrainer:
                 test_array[:,:-1],
                 test_array[:,-1]
             )
+            
+            # Load parameters from YAML file
+            # Get the directory of the current script
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            # Construct the path to the parameters.yaml file
+            params_path = os.path.join(script_dir, '..' ,'..', '..', 'parameters.yaml')
+            
+            # Load parameters from YAML file
+            params = load_params(params_path)
 
             models={
-            'LinearRegression':LinearRegression(),
-            'Lasso':Lasso(),
-            'Ridge':Ridge(),
-            'Elasticnet':ElasticNet()
+            #'LinearRegression':LinearRegression(),
+            #'Lasso':Lasso(),
+            #'Ridge':Ridge(),
+            #'Elasticnet':ElasticNet(),
+            'NeuralNetwork':MLPRegressor(**params)
         }
             
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)

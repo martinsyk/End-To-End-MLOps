@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/128a3f4d04e44d8d9efc9a4fc4577bf8/artifacts
+end_time: 1713889131234
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 128a3f4d04e44d8d9efc9a4fc4577bf8
+run_name: wistful-panda-652
+run_uuid: 128a3f4d04e44d8d9efc9a4fc4577bf8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713889128860
+status: 4
+tags: []
+user_id: ssyko
