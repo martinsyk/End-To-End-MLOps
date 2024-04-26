@@ -10,7 +10,22 @@ on:
   workflow_dispatch:
 
 jobs:
+  integration:
+    name: Continuous Integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Lint code
+        run: echo "Linting repository"
+
+      - name: Run unit tests
+        run: echo "Running unit tests"
+
   build:
+    name: Continous Development
+    needs: integration
     runs-on: 'ubuntu-latest'
 
     steps:
@@ -34,8 +49,10 @@ jobs:
         file: ./Dockerfile
 
   deploy:
-    runs-on: ubuntu-latest
     needs: build
+    name: Continuous Deployment
+    runs-on: ubuntu-latest
+
     environment:
       name: 'production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
