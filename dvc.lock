@@ -21,12 +21,12 @@ stages:
       size: 3075
     - path: src/DiamondPricePrediction/pipelines/Training_pipeline.py
       hash: md5
-      md5: 57793d056eaa92f40e0d8e8ed2104c14
-      size: 770
+      md5: 3ba7d84762a061b7207bb199ba43c43b
+      size: 922
     outs:
     - path: Artifacts/model.pkl
       hash: md5
-      md5: 8b3ed0ef82a34b08434b094b49cc1ce7
+      md5: 6546329b4cf0f3acf779ecc9a68ef2ee
       size: 34494
     - path: Artifacts/preprocessor.pkl
       hash: md5

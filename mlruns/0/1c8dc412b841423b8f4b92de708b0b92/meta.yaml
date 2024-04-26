@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/1c8dc412b841423b8f4b92de708b0b92/artifacts
+end_time: 1714161520778
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c8dc412b841423b8f4b92de708b0b92
+run_name: rebellious-robin-781
+run_uuid: 1c8dc412b841423b8f4b92de708b0b92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714161518206
+status: 3
+tags: []
+user_id: ssyko

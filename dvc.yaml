@@ -14,3 +14,8 @@ stages:
       - Artifacts/train_data.csv
       - Artifacts/preprocessor.pkl
       - Artifacts/model.pkl
+  
+  monitoring:
+    cmd: python src/DiamondPricePrediction/components/Model_monitoring.py
+    deps:
+      - src/DiamondPricePrediction/components/Model_monitoring.py

@@ -23,17 +23,17 @@ from evidently.ui.workspace import WorkspaceBase
 
 
 
-train_data_path:str = os.path.join("Artifacts","train_data.csv")
-#test data used as current data for monitoring due to not having a new data set
+refrenced_path:str = os.path.join("Notebook_Experiments","Data","gemstone.csv")
+#first 30k rows of original dataset are used as a new batch data for monitoring due to not having a new data set
 #this can be replaced with a new data set for monitoring if used in production
-test_data_path:str = os.path.join("Artifacts","test_data.csv")
+current_path:str = os.path.join("Notebook_Experiments","Data","gemstone_newbatch.csv")
 
-adult_ref = pd.read_csv(train_data_path)
-adult_cur = pd.read_csv(test_data_path)
+adult_ref = pd.read_csv(refrenced_path)
+adult_cur = pd.read_csv(current_path)
 
 WORKSPACE = "workspace"
 
-YOUR_PROJECT_NAME = "New Project"
+YOUR_PROJECT_NAME = "New Project2"
 YOUR_PROJECT_DESCRIPTION = "Test project using Gemstone dataset."
 
 

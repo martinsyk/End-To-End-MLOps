@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f138df632a97480fb754ca0d43c6687f/artifacts
+end_time: 1714162681037
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f138df632a97480fb754ca0d43c6687f
+run_name: abrasive-auk-446
+run_uuid: f138df632a97480fb754ca0d43c6687f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714162678286
+status: 3
+tags: []
+user_id: ssyko

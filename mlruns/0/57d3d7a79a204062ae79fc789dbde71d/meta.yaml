@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/57d3d7a79a204062ae79fc789dbde71d/artifacts
+end_time: 1714162953291
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57d3d7a79a204062ae79fc789dbde71d
+run_name: upset-gnu-679
+run_uuid: 57d3d7a79a204062ae79fc789dbde71d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714162950647
+status: 3
+tags: []
+user_id: ssyko

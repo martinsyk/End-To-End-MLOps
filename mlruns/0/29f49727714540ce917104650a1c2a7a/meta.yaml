@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/29f49727714540ce917104650a1c2a7a/artifacts
+end_time: 1714162856673
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29f49727714540ce917104650a1c2a7a
+run_name: flawless-stork-613
+run_uuid: 29f49727714540ce917104650a1c2a7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714162853897
+status: 3
+tags: []
+user_id: ssyko

@@ -1,0 +1,12 @@
+creation_timestamp: 1714161474092
+current_stage: None
+description: ''
+last_updated_timestamp: 1714161474092
+name: ml_model
+run_id: 10400abdfe0d47088c67b0206c0cc2b7
+run_link: ''
+source: mlflow-artifacts:/0/10400abdfe0d47088c67b0206c0cc2b7/artifacts/Model
+status: READY
+status_message: null
+user_id: null
+version: 10
