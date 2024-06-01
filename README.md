@@ -17,5 +17,5 @@ Deployment of the prediction service on Azure with Docker:
    1. Create azure Container registry
    2. Resource group
    3. Create Web App
-   4. Create deployment through Github Actions
+   4. Create deployment  through Github Actions
 
